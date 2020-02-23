@@ -1,9 +1,11 @@
 package com.example.lenguajes;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,15 +28,29 @@ public class MainActivity extends AppCompatActivity {
 
         if (id==R.id.inicio){
             Toast.makeText(this,"Inicio", Toast.LENGTH_SHORT).show();
+
         } else if (id==R.id.ce){
             Toast.makeText(this,"Opcion C#", Toast.LENGTH_SHORT).show();
+            Intent abreC = new Intent(this, ActCe.class);
+            startActivity(abreC);
         } else if (id==R.id.java){
             Toast.makeText(this,"Opcion Java", Toast.LENGTH_SHORT).show();
+            Intent abreJava = new Intent(this, ActJava.class);
+            startActivity(abreJava);
         } else if (id==R.id.javascript){
             Toast.makeText(this,"Opcion JavaScript", Toast.LENGTH_SHORT).show();
         } else if (id==R.id.python){
             Toast.makeText(this,"Opcion Python", Toast.LENGTH_SHORT).show();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void abreC(View view){
+        Intent abreC = new Intent(this, ActCe.class);
+        startActivity(abreC);
+    }
+    public void abreJava(View view){
+        Intent abreJava = new Intent(this, ActJava.class);
+        startActivity(abreJava);
     }
 }

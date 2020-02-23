@@ -5,4 +5,23 @@
     <string name="java">Java</string>
     <string name="javascript">JavaScript</string>
     <string name="python">Python</string>
+    <string name="TituloInicio">CURSOS DE PROGRAMACIÓN</string>
+    <string name="DescInicio">
+    En la actualidad, la noción de programación se encuentra muy asociada a la creación de
+    aplicaciones informática y videojuegos. Es el proceso por el cual una persona desarrolla
+    un programa valiéndose de una herramienta que le permita escribir el código (el cual puede
+    estar en uno o varios lenguajes, como C++, Java y Python, entre otros) y de otra que sea
+    capaz de “traducirlo” a lo que se conoce como lenguaje de máquina, que puede comprender
+    el microprocesador. </string>
+    <string name="TituloCe">PROGRAMACIÓN EN C#</string>
+    <string name="DescCe">
+    C# es un lenguaje de programación multiparadigma, desarrollado y estandarizado por Microsoft
+    como parte de su plataforma .NET, aprobado como un estándar por la ECMA (ECMA-334) e ISO
+    (ISO/IEC 23270). Su sintaxis básica deriva de C/C++ y utiliza el modelo de objetos de la
+    plataforma .NET, similar al de Java.</string>
+    <string name="TituloJava">PROGRAMACIÓN EN JAVA</string>
+    <string name="DescJava">
+    Java es un lenguaje de programación y una plataforma informática comercializada por primera
+        vez en 1995 por Sun Microsystems. Hay muchas aplicaciones y sitios web basados en
+        componentes Java.</string>
 </resources>
