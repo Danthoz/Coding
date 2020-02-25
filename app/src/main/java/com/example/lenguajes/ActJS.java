@@ -5,17 +5,16 @@ import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class ActCe extends AppCompatActivity {
-
-    WebView wvCe;
+public class ActJS extends AppCompatActivity {
+    WebView wvJS;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_act_ce);
+        setContentView(R.layout.activity_act_js);
 
-        wvCe=findViewById(R.id.wvCe);
-        wvCe.setWebViewClient(new WebViewClient());
-        wvCe.loadUrl("https://docs.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/");
+        wvJS=findViewById(R.id.wvJS);
+        wvJS.setWebViewClient(new WebViewClient());
+        wvJS.loadUrl("https://developer.mozilla.org/es/docs/Web/JavaScript");
     }
 }

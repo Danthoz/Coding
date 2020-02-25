@@ -9,8 +9,7 @@
     <string name="DescInicio">
     En la actualidad, la noción de programación se encuentra muy asociada a la creación de
     aplicaciones informática y videojuegos. Es el proceso por el cual una persona desarrolla
-    un programa valiéndose de una herramienta que le permita escribir el código (el cual puede
-    estar en uno o varios lenguajes, como C++, Java y Python, entre otros) y de otra que sea
+    un programa valiéndose de una herramienta que le permita escribir el código y de otra que sea
     capaz de “traducirlo” a lo que se conoce como lenguaje de máquina, que puede comprender
     el microprocesador. </string>
     <string name="TituloCe">PROGRAMACIÓN EN C#</string>

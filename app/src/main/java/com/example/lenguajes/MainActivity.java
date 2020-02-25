@@ -26,10 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         int id= item.getItemId();
 
-        if (id==R.id.inicio){
-            Toast.makeText(this,"Inicio", Toast.LENGTH_SHORT).show();
-
-        } else if (id==R.id.ce){
+        if (id==R.id.ce){
             Toast.makeText(this,"Opcion C#", Toast.LENGTH_SHORT).show();
             Intent abreC = new Intent(this, ActCe.class);
             startActivity(abreC);
@@ -39,8 +36,12 @@ public class MainActivity extends AppCompatActivity {
             startActivity(abreJava);
         } else if (id==R.id.javascript){
             Toast.makeText(this,"Opcion JavaScript", Toast.LENGTH_SHORT).show();
+            Intent abreJS = new Intent(this, ActJS.class);
+            startActivity(abreJS);
         } else if (id==R.id.python){
             Toast.makeText(this,"Opcion Python", Toast.LENGTH_SHORT).show();
+            Intent abrePython = new Intent(this, ActPython.class);
+            startActivity(abrePython);
         }
         return super.onOptionsItemSelected(item);
     }
@@ -52,5 +53,13 @@ public class MainActivity extends AppCompatActivity {
     public void abreJava(View view){
         Intent abreJava = new Intent(this, ActJava.class);
         startActivity(abreJava);
+    }
+    public void abreJS(View view){
+        Intent abreJS = new Intent(this, ActJS.class);
+        startActivity(abreJS);
+    }
+    public void abrePython(View view){
+        Intent abrePython = new Intent(this, ActPython.class);
+        startActivity(abrePython);
     }
 }
